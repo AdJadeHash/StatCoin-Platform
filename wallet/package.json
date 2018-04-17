@@ -1,0 +1,26 @@
+{
+  "name": "stellar-wallet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "gulp develop",
+    "test": "NODE_ENV=test gulp db:setup && gulp test && gulp submit-coverage"
+  },
+  "dependencies": {
+    "duration-js": "^3.3.4",
+    "ed25519": "0.0.4",
+    "notp": "^2.0.2",
+    "scmp": "0.0.3",
+    "scrypt-hash": "^1.1.14",
+    "stellar-base": "0.7.0",
+    "stellar-lib": "^0.9.6",
+    "stex": "git+https://github.com/stellar/stex.git#master",
+    "unirest": "^0.2.7",
+    "validator": "^3.19.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
