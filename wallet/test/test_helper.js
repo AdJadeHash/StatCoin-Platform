@@ -77,11 +77,11 @@ var loadFixtures = function() {
     makeWallet({ id:'4', authToken:'4', mainData:'foo4', keychainData:'foo4' }),
     makeWallet({ id:'5', authToken:'5', mainData:'foo5', keychainData:'foo5', migratedAt: new Date() }),
 
-    makeWalletV2({username: "scott@stellar.org", mainData:'foo', keychainData:'foo'}),
-    makeWalletV2({username: "david@stellar.org", mainData:'foo', keychainData:'foo'}),
-    makeWalletV2({username: "mfa@stellar.org",   mainData:'foo', keychainData:'foo', totpKey:new Buffer('mytotpKey').toString("base64")}),
-    makeWalletV2({username: "mfa-disabled@stellar.org",   mainData:'foo', keychainData:'foo', totpKey:new Buffer('mytotpKey').toString("base64"), totpDisabledAt:now}),
-    makeWalletV2({username: "mfa-disabling@stellar.org",   mainData:'foo', keychainData:'foo', totpKey:new Buffer('mytotpKey').toString("base64"), totpDisabledAt:tenMinutesFromNow}),
+    makeWalletV2({username: "user1@statcoin.io", mainData:'foo', keychainData:'foo'}),
+    makeWalletV2({username: "user2@statcoin.io", mainData:'foo', keychainData:'foo'}),
+    makeWalletV2({username: "user3@statcoin.io",   mainData:'foo', keychainData:'foo', totpKey:new Buffer('mytotpKey').toString("base64")}),
+    makeWalletV2({username: "user4@statcoin.io",   mainData:'foo', keychainData:'foo', totpKey:new Buffer('mytotpKey').toString("base64"), totpDisabledAt:now}),
+    makeWalletV2({username: "user5@statcoin.io",   mainData:'foo', keychainData:'foo', totpKey:new Buffer('mytotpKey').toString("base64"), totpDisabledAt:tenMinutesFromNow}),
   ]);
 };
 
