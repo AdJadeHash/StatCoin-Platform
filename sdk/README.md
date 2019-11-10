@@ -139,3 +139,4 @@ Read more about [npm version](https://docs.npmjs.com/cli/version).
 
 ## License
 js-stellar-sdk is licensed under an Apache-2.0 license. See the [LICENSE](https://github.com/stellar/js-stellar-sdk/blob/master/LICENSE) file for details.
+
